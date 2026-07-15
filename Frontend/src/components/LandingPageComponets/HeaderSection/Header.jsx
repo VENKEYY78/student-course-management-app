@@ -7,9 +7,7 @@ import Logo from '../../../assets/favicon.png'
 import LogInIcon from '../../../assets/icons/login.png';
 
 import { NavLink } from 'react-router-dom';
-
-const Header = () => {
-    const navigate = useNavigate();
+function Header() {
     return (
         <>
             <div className='header'>
