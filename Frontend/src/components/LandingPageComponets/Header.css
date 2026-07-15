@@ -1,0 +1,73 @@
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 10px 40px;
+
+    }
+
+    .logo-section {
+
+        display: flex;
+        gap: 15px;
+    }
+
+    .clg-name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        line-height: 25px;
+        font-family: Arial, Verdana, Calibri;
+    }
+
+    .clg-name p:nth-child(1) {
+        font-size: 2rem;
+        font-weight: bolder;
+        color: #21304D;
+    }
+
+    .clg-name p:nth-child(2) {
+        text-transform: capitalize;
+        color: gray;
+    }
+
+  
+
+    .login-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .login-btn {
+        text-decoration: none;
+        color: white;
+        background-color: #102852;
+
+        width: 130px;
+        height: 50px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+
+        font-family: Calibri, Verdana, Arial, sans-serif;
+        font-size: 1rem;
+        
+
+        cursor: pointer;
+        transition: all 0.2s ease;
+    }
+
+    .login-btn:hover {
+        background-color: #1a3a7a;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    }
+
+    .login-btn:active {
+        transform: translateY(2px);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
