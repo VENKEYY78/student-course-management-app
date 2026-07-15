@@ -9,7 +9,7 @@ import amazon from '../../assets/recruiters/amazon.png';
 import hcl from '../../assets/recruiters/hcl.png';
 import cognizant from '../../assets/recruiters/cognizant.png';
 
-function TopRecruiters() {
+const TopRecruiters = () => {
   const recruiters = [
     { name: 'TCS', logo: tcs },
     { name: 'Infosys', logo: infosys },

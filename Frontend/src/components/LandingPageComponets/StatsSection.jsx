@@ -5,7 +5,7 @@ import passedIcon from '../../assets/icons/passed.png';
 import branchesIcon from '../../assets/icons/branches.png';
 import placementsIcon from '../../assets/icons/placements.png';
 
-function StatsSection() {
+const StatsSection = () => {
   const stats = [
     { icon: coursesIcon, number: '120+', label: 'Courses', color: '#1a4fa3' },
     { icon: studentsIcon, number: '5000+', label: 'Students Enrolled', color: '#2e8b57' },
@@ -18,7 +18,7 @@ function StatsSection() {
     <section className="stats-section">
       <div className="stats-grid">
         {stats.map((s, i) => (
-          <div className="stat-card" key={i} style={{ borderColor:`${s.color}20` ,backgroundColor:`${s.color}15`}}>
+          <div className="stat-card" key={i} style={{ borderColor: `${s.color}20`, backgroundColor: `${s.color}15` }}>
             <img src={s.icon} alt={s.label} />
             <span>
               <h3 style={{ color: s.color }}>{s.number}</h3>

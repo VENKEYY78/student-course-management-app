@@ -1,7 +1,7 @@
 import './Footer.css';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-top">
