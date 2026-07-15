@@ -4,11 +4,11 @@ import BannerImg from '../../assets/banner1.png';
 import Arrow from '../../assets/icons/rightArrow.png';
 
 import { NavLink } from 'react-router-dom';
-function Banner() {
+const Banner = () => {
     return (
         <>
             <div className='container'>
-    
+
                 <div className='banner'>
                     <img src={BannerImg} alt="" />
                 </div>

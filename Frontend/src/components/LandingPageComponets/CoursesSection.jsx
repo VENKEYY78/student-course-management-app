@@ -9,14 +9,14 @@ import businessImg from '../../assets/cse.jpg';
 import { NavLink } from 'react-router-dom';
 
 
-function CoursesSection() {
+const CoursesSection = () => {
     const courses = [
         { title: 'Computer Science Engineering', img: csImg },
         { title: 'Electronics & Communication', img: ecImg },
         { title: 'Mechanical Engineering', img: mechImg },
         { title: 'Civil Engineering', img: civilImg },
         { title: 'Business Administration', img: businessImg },
-        
+
     ];
     return (
         <>
