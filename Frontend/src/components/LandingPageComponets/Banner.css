@@ -1,0 +1,61 @@
+.container {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.banner {
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.title {
+    width: 25%;
+    position: relative;
+   
+    bottom: 90%;
+    left: 5%;
+
+    margin-left: 30px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+    gap: 15px;
+
+
+    font-family: Calibri, Verdana, Arial, sans-serif;
+
+
+
+}
+
+.welcome-title {
+    font-size: 3rem;
+    color: #102852;
+}
+
+.welcome-quote {
+    font-size: larger;
+    color: gray;
+}
+
+.login-btn {
+    background-color: #102852;
+    width: 200px;
+    height: 40px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+

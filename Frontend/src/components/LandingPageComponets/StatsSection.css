@@ -1,0 +1,53 @@
+.stats-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.stats-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  
+}
+
+.stat-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  width: 230px;
+  height: fit-content;
+
+  background: #fff;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 10px;
+  transition: transform 0.3s ease;
+
+}
+h3{
+  display: block;
+}
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-card img {
+  width: 60px;
+  height: 55px;
+  margin-bottom: 10px;
+}
+
+.stat-card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.stat-card p {
+  color: #555;
+  font-size: 0.9rem;
+}
