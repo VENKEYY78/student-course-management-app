@@ -1,0 +1,50 @@
+.recruiters-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.recruiters-section h2 {
+  font-size: 1.8rem;
+  color: #102852;
+  font-weight: bold;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.recruiters-section h2::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  background-color: #182C63;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+.recruiters-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.recruiter-card {
+  width: 150px;
+  height: 80px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.recruiter-card:hover {
+  transform: scale(1.05);
+}
+
+.recruiter-card img {
+  max-width: 100px;
+  height: auto;
+}
