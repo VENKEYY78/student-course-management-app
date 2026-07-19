@@ -23,37 +23,3 @@ const App = () => (
 
 export default App;
 
-/*
-
-import LandingPage from './pages/LandingPage/LandingPage.jsx';
-import LoginPage from './pages/LoginPage/Login.jsx';
-import MyCourses from './pages/StudentPage/MyCourses.jsx';
-
-<BrowserRouter>
-        <Routes>
-            <Route />
-            <Route path='/' element={<LandingPage />}></Route>
-            <Route path='/login' element={<LoginPage/>}></Route>
-            <Route path='/my-courses' element={<MyCourses/>}></Route>
-        </Routes>
-    </BrowserRouter>
-*/
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
