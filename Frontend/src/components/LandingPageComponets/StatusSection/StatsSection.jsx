@@ -1,9 +1,9 @@
 import './StatsSection.css';
-import coursesIcon from '../../assets/icons/graduation_cap.png';
-import studentsIcon from '../../assets/icons/students.png';
-import passedIcon from '../../assets/icons/passed.png';
-import branchesIcon from '../../assets/icons/branches.png';
-import placementsIcon from '../../assets/icons/placements.png';
+import coursesIcon from '../../../assets/icons/graduation_cap.png';
+import studentsIcon from '../../../assets/icons/students.png';
+import passedIcon from '../../../assets/icons/passed.png';
+import branchesIcon from '../../../assets/icons/branches.png';
+import placementsIcon from '../../../assets/icons/placements.png';
 
 const StatsSection = () => {
   const stats = [

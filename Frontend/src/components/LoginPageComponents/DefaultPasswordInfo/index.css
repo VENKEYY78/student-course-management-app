@@ -1,0 +1,59 @@
+.default-password-info-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 12px;
+    padding: 16px 24px;
+    width: 100%;
+    max-width: 1100px;
+    box-sizing: border-box;
+    margin-top: 16px;
+  }
+  
+  .FaCircleInfo {
+    font-size: 24px;
+    color: #1d4ed8;
+    flex-shrink: 0;
+  }
+  
+  .default-password-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex-grow: 1;
+  }
+  
+  .default-password-heading {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1e3a8a;
+    margin: 0;
+  }
+  
+  .default-password-paragragh {
+    font-size: 13px;
+    color: #1e40af;
+    margin: 0;
+    line-height: 1.4;
+  }
+  
+  .FaKey {
+    font-size: 32px;
+    color: #bfdbfe;
+    opacity: 0.5;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .default-password-info-container {
+      padding: 16px;
+    }
+    
+    .FaKey {
+      display: none;
+    }
+  }
+  

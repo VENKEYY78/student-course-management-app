@@ -1,10 +1,10 @@
 import './CoursesSection.css';
 
-import csImg from '../../assets/cse.jpg';
-import ecImg from '../../assets/eee.jpg';
-import mechImg from '../../assets/mech.jpg';
-import civilImg from '../../assets/civil.jpg';
-import businessImg from '../../assets/cse.jpg';
+import csImg from '../../../assets/cse.jpg';
+import ecImg from '../../../assets/eee.jpg';
+import mechImg from '../../../assets/mech.jpg';
+import civilImg from '../../../assets/civil.jpg';
+import businessImg from '../../../assets/cse.jpg';
 
 import { NavLink } from 'react-router-dom';
 

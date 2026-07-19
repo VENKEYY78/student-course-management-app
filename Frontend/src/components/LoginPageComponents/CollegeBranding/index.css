@@ -1,0 +1,74 @@
+.college-info-container {
+  background-image: url('https://res.cloudinary.com/dv0v9hk6g/image/upload/v1784158102/ABC_collage_Portel_image_rwni70.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 40px 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.college-name-and-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 40px;
+}
+
+.college-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.college-name-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.college-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #033065;
+  margin: 0;
+}
+
+.college-title-para {
+  font-size: 14px;
+  color: #033065;
+  margin: 2px 0 0 0;
+  font-weight: 500;
+}
+
+.Portal-Welcome-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0 40px;
+  margin-top: auto;
+  margin-bottom: 30%;
+}
+
+.PortalWelcome {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+
+.PortalWelcomePara {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.5;
+  font-weight: bold;
+  margin: 0;
+  max-width: 360px;
+}
+
+.imported-feature-section-container {
+  width: 100%;
+  margin-top: auto;
+}

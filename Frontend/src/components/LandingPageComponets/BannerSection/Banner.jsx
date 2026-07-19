@@ -1,7 +1,7 @@
 import './Banner.css';
 
-import BannerImg from '../../assets/banner1.png';
-import Arrow from '../../assets/icons/rightArrow.png';
+import BannerImg from '../../../assets/banner1.png';
+import Arrow from '../../../assets/icons/rightArrow.png';
 
 import { NavLink } from 'react-router-dom';
 const Banner = () => {

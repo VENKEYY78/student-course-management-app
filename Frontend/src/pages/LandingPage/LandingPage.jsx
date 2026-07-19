@@ -1,11 +1,11 @@
 import '../../styles/LandingPage.css';
 
-import Header from '../../components/LandingPageComponets/Header';
-import Banner from '../../components/LandingPageComponets/Banner';
-import CoursesSection from '../../components/LandingPageComponets/CoursesSection';
-import StatsSection from '../../components/LandingPageComponets/StatsSection';
-import TopRecruiters from '../../components/LandingPageComponets/TopRecruiters';
-import Footer from '../../components/LandingPageComponets/Footer';
+import Header from '../../components/LandingPageComponets/HeaderSection/Header';
+import Banner from '../../components/LandingPageComponets/BannerSection/Banner';
+import CoursesSection from '../../components/LandingPageComponets/CoursesSection/CoursesSection';
+import StatsSection from '../../components/LandingPageComponets/StatusSection/StatsSection';
+import TopRecruiters from '../../components/LandingPageComponets/TopRecruiters/TopRecruiters';
+import Footer from '../../components/LandingPageComponets/FooterSection/Footer';
 
 function LandingPage() {
     return (

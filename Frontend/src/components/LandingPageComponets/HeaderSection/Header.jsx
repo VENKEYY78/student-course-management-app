@@ -1,13 +1,15 @@
 import './Header.css';
 
-import Logo from '../../../public/favicon.png';
+import { useNavigate } from 'react-router-dom';
 
-import LogInIcon from '../../assets/icons/login.png';
+import Logo from '../../../assets/favicon.png'
+
+import LogInIcon from '../../../assets/icons/login.png';
 
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
-
+    const navigate = useNavigate();
     return (
         <>
             <div className='header'>
@@ -20,13 +22,13 @@ const Header = () => {
                 </div>
 
                 <div className='nav-pages'>
+                    <button type='button' className='admin-navigate-link' onClick={() => navigate("/Admin_Login_Page")}>Admin</button>
+                    <button type='button' className='student-navigate-link' onClick={() => navigate("/Student_Login_page")}>Student</button>
                     <NavLink to="/login" className="login-btn">
                         <img src={LogInIcon} alt="user-logo" width={20} height={20} />
                         Login
                     </NavLink>
                 </div>
-
-
             </div>
         </>
     );

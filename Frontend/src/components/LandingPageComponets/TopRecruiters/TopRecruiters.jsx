@@ -1,13 +1,13 @@
 import './TopRecruiters.css';
 
-import tcs from '../../assets/recruiters/tcs.png';
-import infosys from '../../assets/recruiters/infosys.png';
-import wipro from '../../assets/recruiters/wipro.png';
-import accenture from '../../assets/recruiters/accenture.png';
-import capgemini from '../../assets/recruiters/capgemini.png';
-import amazon from '../../assets/recruiters/amazon.png';
-import hcl from '../../assets/recruiters/hcl.png';
-import cognizant from '../../assets/recruiters/cognizant.png';
+import tcs from '../../../assets/recruiters/tcs.png';
+import infosys from '../../../assets/recruiters/infosys.png';
+import wipro from '../../../assets/recruiters/wipro.png';
+import accenture from '../../../assets/recruiters/accenture.png';
+import capgemini from '../../../assets/recruiters/capgemini.png';
+import amazon from '../../../assets/recruiters/amazon.png';
+import hcl from '../../../assets/recruiters/hcl.png';
+import cognizant from '../../../assets/recruiters/cognizant.png';
 
 const TopRecruiters = () => {
   const recruiters = [

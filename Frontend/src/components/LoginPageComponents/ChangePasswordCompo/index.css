@@ -1,0 +1,61 @@
+.Change-password-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 16px;
+    padding: 30px;
+    background-color: #F3F7FD;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    margin-top: 20px;
+  }
+  
+  .change-password-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #64748b;
+    flex-shrink: 0;
+    background-color: #E1EBFA;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  
+  .change-password-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex-grow: 1;
+  }
+  
+  .change-password-heading {
+    font-size: 16px;
+    font-weight: 600;
+    color: #33486E;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .change-password-paragrah {
+    font-size: 14px;
+    color: #64748b;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .change-password-button {
+    flex-shrink: 0;
+    border: 2px solid #7092D9;
+    padding: 10px;
+    background-color: #FEFEFE;
+    border-radius: 6px;
+    color: #7092D9;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
