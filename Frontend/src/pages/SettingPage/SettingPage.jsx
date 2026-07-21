@@ -1,9 +1,9 @@
 import SideBar from "../../components/SidebarComponets/SideBar";
-function MyCourses() {
+function Setting() {
     return (
         <>
             <SideBar />
         </>
     );
 }
-export default MyCourses;
+export default Setting;
