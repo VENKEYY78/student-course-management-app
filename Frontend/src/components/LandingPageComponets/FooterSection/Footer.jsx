@@ -25,7 +25,7 @@ const Footer = () => {
 
         <div className="footer-contact">
           <h4>Contact Us</h4>
-          <p>📍 Tenali, Andhra Pradesh, India</p>
+          <p>📍 Tirupathi, Andhra Pradesh, India</p>
           <p>📞 +91 ***** ****0</p>
           <p>✉️ info@abccollege.edu.in</p>
         </div>

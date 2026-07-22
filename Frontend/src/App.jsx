@@ -1,6 +1,6 @@
 import { BrowserRouter , Routes , Route } from 'react-router-dom';
 
-
+///import AddingNewAdmin from './pages/AdminPage/AddingNewAdmin';
 import LandingPage from './pages/LandingPage/LandingPage';
 import AdminLoginPage from './pages/LoginPages/AdminLoginPage';
 import StudenLoginPage from './pages/LoginPages/StudentLoginPage';
@@ -34,7 +34,14 @@ export default App;
 
 
 
+/*
 
+
+
+
+
+
+*/
 
 
 

@@ -42,6 +42,7 @@ const StudentLoginPage = () => {
         console.log(studentDetails);
         setStudentName("");
         setStudentEmailID("");
+        setStudentPassword("");
         setShowPassword("");
    }
 
