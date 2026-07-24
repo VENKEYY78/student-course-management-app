@@ -1,0 +1,12 @@
+.courses-details-layout {
+    display: flex;
+}
+
+.courses-details-main {
+    flex: 1;
+    min-width: 0;
+    height: 100vh;
+    padding-inline: 60px;
+    padding-top: 10px;
+    overflow-y: auto;
+}

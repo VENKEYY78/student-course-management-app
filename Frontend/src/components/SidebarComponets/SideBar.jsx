@@ -55,8 +55,8 @@ function SideBar() {
                                     })}
                                 </nav>
                                 <div className='btn-container'>
-                                    <div> <CiLogout color='white' size={20} /></div>
-                                    <div><NavLink  to='/' className='logout'>Logout</NavLink></div>
+                                     <CiLogout color='white' size={20} />
+                                    <span><NavLink  to='/' className='logout'>Logout</NavLink></span>
                                 </div>
 
                             </div>

@@ -12,7 +12,8 @@ const Header = () => {
         <>
             <div className='header'>
                 <div className='logo-section'>
-                    <NavLink to="/"><img src={Logo} alt="logo" width={50} height={55} /></NavLink>
+                    <NavLink to="/">
+                    <img src={Logo} alt="logo" width={50} height={55} /></NavLink>
                     <div className='clg-name'>
                         <p>ABC College</p>
                         <p>learn. grow. succeed</p>
