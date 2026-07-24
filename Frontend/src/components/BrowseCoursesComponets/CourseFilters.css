@@ -1,0 +1,69 @@
+.filter-container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.browse-filter-title p:nth-child(1) {
+
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.filter-inputs {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.search-title {
+    flex: 3;
+    height: 10%;
+    font-size: larger;
+    outline: none;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.department-input {
+    flex:1;
+    height: 10%;
+    padding: 10px;
+    font-size: 1rem;
+
+}
+
+.duration-input {
+    flex: 1;
+    height: 10%;
+    padding: 10px;
+    font-size: 1rem;
+
+
+}
+
+.filter-search-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex: 0 0 140px;
+    max-width: 150px;
+    height: 10%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+
+    background-color: #081C4A;
+    color: white;
+    transition: background-color 0.2s ease;
+
+}
+
+.filter-search-btn:hover {
+    background-color: #0B2A6A;
+}
