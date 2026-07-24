@@ -1,0 +1,27 @@
+.dashboard-layout {
+    display: flex;
+   
+}
+
+.dashboard-main {
+    flex: 1;
+    min-width: 0;
+    height: 100vh;
+    overflow-y: auto;
+    background: #f8f9fc;
+    padding-inline: 50px;
+}
+
+.bottom-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+    .bottom-section {
+        grid-template-columns: 1fr;
+    }
+}

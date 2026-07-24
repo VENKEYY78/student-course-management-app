@@ -7,15 +7,15 @@ import StatsSection from '../../components/LandingPageComponets/StatusSection/St
 import TopRecruiters from '../../components/LandingPageComponets/TopRecruiters/TopRecruiters';
 import Footer from '../../components/LandingPageComponets/FooterSection/Footer';
 
-function LandingPage() {
+const LandingPage = () => {
     return (
         <>
             <Header />
             <Banner />
-            <CoursesSection/>
-            <StatsSection/>
-            <TopRecruiters/>
-            <Footer/>
+            <CoursesSection />
+            <StatsSection />
+            <TopRecruiters />
+            <Footer />
         </>
     );
 }

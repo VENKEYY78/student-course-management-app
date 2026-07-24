@@ -1,0 +1,59 @@
+.stu-db-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-left:10px ;
+}
+
+.profile-snapshort {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.notification-info {
+
+    height: fit-content;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.prifile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    text-decoration: none;
+    
+}
+
+.prifile img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.user-info p:nth-child(1){
+    color: #000831;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.user-info p:nth-child(2){
+    color: rgb(88, 87, 87);
+}
+.welcome-msg{
+    text-align: start;
+    margin-top: 0;
+}
+.welcome-msg p:nth-child(1){
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #000831;
+}
+.welcome-msg p:nth-child(2){
+  color:rgb(82, 81, 81);
+}

@@ -1,0 +1,126 @@
+.sidebar {
+    background-image: url(../../assets/sidebarImg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 100vh;
+    flex-shrink: 0;
+    min-width: 0;
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: width 0.3s ease;
+}
+
+.sidebar.collapsed {
+    width: 0;
+    transition: width 0.4s ease;
+}
+
+.sidebar-header {
+
+    display: inline-flex;
+    max-width: 100%;
+    padding: 20px 20px 20px;
+    text-decoration: none;
+}
+
+.sidebar-logo {
+    margin: 0%;
+}
+
+.sidebar-title {
+    color: white;
+    margin: 0px;
+    width: inherit;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.sidebar-title p:nth-child(1) {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-wrap: nowrap;
+}
+
+.sidebar-title p:nth-child(2) {
+    position: relative;
+
+}
+
+.toggle-btn {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    transition: left 0.3s ease, color 0.3s ease;
+    z-index: 1000;
+}
+
+.toggle-btn.left {
+    left: 10px;
+}
+
+.toggle-btn.right {
+    left: 330px;
+}
+
+.nav-pages {
+    display: flex;
+    flex-direction: column;
+
+    min-width: 0;
+    gap: 20px;
+    padding: 20px;
+}
+.link-icon{
+    margin-right: 10px;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;   /* vertical alignment */
+  gap: 10px;             /* spacing between icon and text */
+  margin-left: 29px;
+ 
+
+}
+
+.logout {
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+    
+    display: flex;
+    align-items: center;
+    
+    min-width: 0;
+
+    padding: 8px 12px;
+}
+
+.link.active {
+    border-radius: 10px;
+    width: 100%;
+
+    background: #29499C;
+}

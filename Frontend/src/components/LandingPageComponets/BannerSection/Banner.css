@@ -17,7 +17,7 @@
     object-fit: cover;
 }
 
-.title {
+.banner-title {
     width: 25%;
     position: relative;
    
@@ -32,12 +32,6 @@
     overflow: hidden;
 
     gap: 15px;
-
-
-    font-family: Calibri, Verdana, Arial, sans-serif;
-
-
-
 }
 
 .welcome-title {

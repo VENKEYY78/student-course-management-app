@@ -15,6 +15,7 @@ import BrowseCourse from './pages/StudentPage/BrowseCourses.jsx';
 import Profile from './pages/StudentPage/Profile.jsx';
 import Setting from './pages/SettingPage/SettingPage.jsx';
 import Enrollments from './pages/StudentPage/Enrollments.jsx';
+import CourseDetails from './pages/StudentPage/CourseDetails.jsx';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
@@ -30,7 +31,8 @@ const App = () => (
             <Route path='/student/profile' element={<Profile/>}></Route>
             <Route path='/student/setting' element={<Setting/>}></Route>
             <Route path='/student/enrollments' element={<Enrollments/>}></Route>
-            
+            <Route path='/student/course/:id' element={<CourseDetails/>}></Route>
+        
         </Routes>
     </BrowserRouter>
     
